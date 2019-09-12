@@ -1,6 +1,15 @@
 body{
 	background:powderblue;
 }
+h1{
+	font-family: Comic Sans MS;
+	font-size : 20 px;
+	text-align: center;
+	color: black;
+	text-shadow:2px 2px;
+}
 p{
 	font-family: Comic Sans MS;
+	font-size: 18px;
+	text-align: center;
 }
