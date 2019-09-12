@@ -6,32 +6,8 @@ h1{
 	font-size : 20 px;
 	text-align: center;
 	color: black;
-	text-shadow:2px 2px gray;
-}div {
-  width: 300px;
-  height: 100px;
-  background-color: pink;
-  border: 1px solid black;
+	text-shadow:4px 4px gray;
 }
-
-#myDiv {
-  -webkit-transform: rotateY(150deg); /* Safari prior 9.0 */
-  transform: rotateY(150deg); /* Standard syntax */
-}
-</style>
-</head>
-<body>
-
-<h1>I dont know</h1>
-<p>IDK</p>
-
-<div>
-IDK
-</div>
-
-<div id="myDiv">
-IDK
-</div>
 p{
 	font-family: Comic Sans MS;
 	font-size: 18px;
