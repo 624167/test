@@ -2,14 +2,34 @@ body{
 	background:powderblue;
 }
 h1{
+
+
 	font-family: Comic Sans MS;
 	font-size : 20 px;
 	text-align: center;
 	color: black;
-	text-shadow:4px 4px gray;
+	text-shadow:4px 4px gray ;
 }
-p{
+ p{font-family: Comic Sans MS;
+	font-size: 18px;
+	text-align: center;
+	text-shadow:2px 2px gray;
+ }
 	font-family: Comic Sans MS;
 	font-size: 18px;
 	text-align: center;
+	text-shadow:2px 2px gray;
 }
+#Assignments {
+
+	padding: 40px;
+		margin: 40px;
+}
+
+#Projects {
+
+padding: 40px;
+	margin: 40px;
+	
+}
+	
