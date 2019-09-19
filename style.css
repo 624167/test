@@ -5,3 +5,32 @@ h1{
 	color: black;
 	text-shadow: 4px 4px gray;
 }
+p{
+	font-family: Arial;
+	font-size:30px;
+	color: black;
+	text-shadow: 2px 2px gray;
+	margin left: 50px; 
+}
+.example_d{
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+.example_d {
+color: white !important;
+text-transform: uppercase;
+text-decoration: none;
+background: black;
+padding: 50px;
+border-radius: 30px;
+display:inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+.example_d:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+<!-- Button FROM:https://www.fabriziovanmarciano.com/button-styles/-->
