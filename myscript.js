@@ -8,15 +8,9 @@ function myFunction() {
 }
 function century(){
 let year1= parseInt(prompt("Enter a year"));
-
-
 let century=parseInt((year1 - 1) / 100)+ 1;
-alert("The century is"+ century);
+alert("The century is"+" " + century);
 
 
 }
 
-function integer(){
-
-
-}
