@@ -13,4 +13,33 @@ alert("The century is"+" " + century);
 
 
 }
+ function integers(){
+  alert("Check your console!")
+
+  for(let i = 1; i < 101; i++){
+
+		if (i % 4 == 0) {
+		console.log("Four");
+		}
+
+		else if(i % 10 == 0){
+		console.log("Ten");
+		}
+
+		else if(i % 10 && 4 == 0 ){
+		console.log("TenFour");
+		}
+	
+		else {
+		console.log(i);
+		}
+	}
+
+}
+
+
+
+
+  
+
 
