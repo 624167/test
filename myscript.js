@@ -37,9 +37,27 @@ alert("The century is"+" " + century);
 
 }
 
+function cheers(){
+	let team= prompt(' who are we cheering for?');
+	let repeats=prompt ('How many cheers for?');
+	for(i=0;i<repeats; i++){
+		console.log("Go"+ team+"!")
+	}
+}
+
+function Encrypt(){
+	let letter={"a":"7","b":"8","c":"17","d":"19","e":"16","f":"3","g":"4","h":"5","i":"6","j":"13","k":"15","l":"14","m":"15","n":"19","o":"20","p":"1","q":"9","r":"10","s":"11","t":"18","u":"25","v":"2","w":"26","x":"4","y":"0","z":"15"};
+	let alert=prompt('write your message');
+	text=alert.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>chars[m]);
+ document.getElementById("true").value = "alert";
 
 
 
-  
+		
 
+
+
+	
+
+	
 
