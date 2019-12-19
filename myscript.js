@@ -46,14 +46,19 @@ function cheers(){
 }
 
 function Encrypt(){
-	let letter={"a":"7","b":"8","c":"17","d":"19","e":"16","f":"3","g":"4","h":"5","i":"6","j":"13","k":"15","l":"14","m":"15","n":"19","o":"20","p":"1","q":"9","r":"10","s":"11","t":"18","u":"25","v":"2","w":"26","x":"4","y":"0","z":"15"};
-	let alert=prompt('write your message');
-	text=alert.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>chars[m]);
- document.getElementById("true").value = "alert";
+	let letter={'a':'7','b':'8','c':'17','d':'19','e':'16','f':'3','g':'4','h':'5','i':'6','j':'13','k':'15','l':'14','m':'25','n':'19','o':'20','p':'1','q':'9','r':'10','s':'11','t':'18','u':'25','v':'2','w':'26','x':'4','y':'0','z':'15'};
+	let message=("write your message here in lowercase letters.")
+	text=message.replace(/[abcdefghijklmnopqrstuvwxyz]/g,m=>letters[m]);
+ document.getElementById("true").innerHTML = text;
+//Got help from Raneem and Amatulhadi//
 
 
-
-		
+function Decrypt
+let letter={'7':'a','8':'b','17':'c','19':'d','16':'e','3':'f','4':'g','5':'h','6':'i','13':'j','15':'k','14':'l','9':'q','10':'r','11':'s','18':'t','25':'u','2':'v','26':'w','4':'x','0':'y','z';'15'};
+let message=('copy the message from above and paste it here');
+text=message.replace(/[7817191634561315142519101118252264015]/g,m=>letters[m]);
+document.getElementById("okay").innerHTML=text
+//Got help from Raneem and Amatulhadi//
 
 
 
