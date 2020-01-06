@@ -34,6 +34,7 @@ alert("The century is"+" " + century);
 		console.log(i);
 		}
 	}
+	hi
 
 }
 
