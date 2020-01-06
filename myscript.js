@@ -62,6 +62,7 @@ text=message.replace(/[78171916345613151425191011182522643015]/g,m=>letter[m]);
 document.getElementById("okay").innerHTML=text;
 
 }
+
 //Got help from Raneem and Amatulhadi//
 
 
