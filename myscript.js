@@ -11,7 +11,7 @@ let year1= parseInt(prompt("Enter a year"));
 let century=parseInt((year1 - 1) / 100)+ 1;
 alert("The century is"+" " + century);
 
-
+hi
 }
  function integers(){
   alert("Check your console!")
